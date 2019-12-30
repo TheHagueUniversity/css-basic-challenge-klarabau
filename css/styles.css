@@ -1,11 +1,11 @@
 /*
 COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
+https://coolors.co/0f564c-061e15-f6f6f6-a5a090-dddad2
+#061E15 - black with a hint of green (text, bg footer)
+#F6F6F6 - smokey white (bg projects, text on dark areas)
+#235650 - slate green (bg header, links & btns in projects)
+#A09B8B - grullo (links in work experience, dashed lines)
+#DDDAD2 - timberwolf (bg work experience, text & links in footer)
 */
 
 
@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #061E15;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -30,7 +30,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #A09B8B;
 }
 a:hover {
   text-decoration: none;
@@ -43,7 +43,7 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Solway';
   font-weight: 400;
   margin: 0;
 }
@@ -63,7 +63,7 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 1px dashed #343434;
+  border-bottom: 1px dashed #A09B8B;
   padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -74,29 +74,29 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #235650;
+  color: #F6F6F6;
 }
 
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #F6F6F6;
 }
 .projects a {
-  color: #2F3061;
+  color: #235650;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #F6F6F6;
+  background: #235650;
   text-decoration: none;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(35, 86, 80, 80%);
 }
 .project-item {
   overflow: hidden;
@@ -109,7 +109,7 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #DDDAD2;
 }
 
 
@@ -117,7 +117,7 @@ header {
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(../images/post-its.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -130,8 +130,11 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
-  color: #F7FFF7;
+  background: #061E15;
+  color: #DDDAD2;
+}
+footer a{
+  color: #DDDAD2;
 }
 .contact-list {
   list-style-type: none;
