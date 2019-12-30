@@ -2,10 +2,10 @@
 COLOR PALETTE
 https://coolors.co/0f564c-061e15-f6f6f6-a5a090-dddad2
 #061E15 - black with a hint of green (text, bg footer)
-#F6F6F6 - smokey white (bg projects, text on dark areas)
+#F6F6F6 - smokey white (bg work experience, bg projects, text on dark areas)
 #235650 - slate green (bg header, links & btns in projects)
 #A09B8B - grullo (links in work experience, dashed lines)
-#DDDAD2 - timberwolf (bg work experience, text & links in footer)
+#DDDAD2 - timberwolf (links in header, text & links in footer)
 */
 
 
@@ -46,6 +46,7 @@ h1, h2 {
   font-family: 'Solway';
   font-weight: 400;
   margin: 0;
+	line-height: 1;
 }
 .content-wrap {
   max-width: 800px;
@@ -76,6 +77,24 @@ h3 {
 header {
   background: #235650;
   color: #F6F6F6;
+}
+
+header h2{
+	margin-top: 25px;
+}
+
+header a{
+	color: #DDDAD2;
+}
+
+header .btn{
+	margin-top: 25px;
+	color: #235650;
+  background: #F6F6F6;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 30px;
+  display: inline-block;
 }
 
 
@@ -109,9 +128,17 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #DDDAD2;
+  background: #F6F6F6;
 }
 
+.work-experience .btn{
+	color: #A09B8B;
+  background: #DDDAD2;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 30px;
+  display: inline-block;
+}
 
 
 /* Education
