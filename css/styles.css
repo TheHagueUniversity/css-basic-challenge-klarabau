@@ -5,7 +5,7 @@ https://coolors.co/0f564c-061e15-f6f6f6-a5a090-dddad2
 #F6F6F6 - smokey white (bg work experience, bg projects, text on dark areas)
 #235650 - slate green (bg header, links & btns in projects)
 #A09B8B - grullo (links in work experience, dashed lines)
-#DDDAD2 - timberwolf (links in header, text & links in footer)
+#DDDAD2 - timberwolf (bg hobbies, links in header, text & links in footer)
 */
 
 
@@ -36,11 +36,11 @@ a:hover {
   text-decoration: none;
 }
 h1 {
-  font-size: 100px;
+  font-size: 80px;
   line-height: 1;
 }
 h2 {
-  font-size: 45px;
+  font-size: 35px;
 }
 h1, h2 {
   font-family: 'Solway';
@@ -78,15 +78,12 @@ header {
   background: #235650;
   color: #F6F6F6;
 }
-
 header h2{
 	margin-top: 25px;
 }
-
 header a{
 	color: #DDDAD2;
 }
-
 header .btn{
 	margin-top: 25px;
 	color: #235650;
@@ -130,7 +127,6 @@ header .btn{
 .work-experience {
   background: #F6F6F6;
 }
-
 .work-experience .btn{
 	color: #A09B8B;
   background: #DDDAD2;
@@ -146,12 +142,38 @@ header .btn{
 .education {
   background-image: url(../images/post-its.jpg);
   background-size: cover;
-  background-position: top right;
+  background-position: bottom right;
   padding-bottom: 100px;
 }
 .education p {
   width: 60%;
 }
+
+
+/* Hobbies
+------------------------------------*/
+.hobbies {
+	background-color: #DDDAD2;
+	padding-bottom: 350px;
+}
+.gallery-item {
+	float: left;
+	margin-top: 40px;
+	margin-right: 3.3%;
+	width: 30%;
+	background-color: #F6F6F6;
+}
+.gallery-item img{
+	width: 100%;
+	opacity: 0.6;
+}
+.description {
+	text-align: center;
+}
+.gallery-item img:hover {
+	opacity: 1;
+}
+
 
 
 /* Contact Info
