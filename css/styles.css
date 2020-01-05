@@ -93,6 +93,9 @@ header .btn{
   border-radius: 30px;
   display: inline-block;
 }
+header .btn:hover {
+	background: rgba(246, 246, 246, 80%);
+}
 
 
 /* Projects
@@ -136,6 +139,9 @@ header .btn{
   display: inline-block;
 }
 
+.work-experience .btn:hover {
+	background: rgba(221, 218, 210, 80%);
+}
 
 /* Education
 ------------------------------------*/
